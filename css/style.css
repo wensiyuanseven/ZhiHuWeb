@@ -1,0 +1,56 @@
+body {
+  margin: 40px 0 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "宋体";
+  background: #fff;
+}
+#header {
+  width: 100%;
+  height: 40px;
+  background: url("../images/header_bg.png");
+  position: absolute;
+  top: 0;
+}
+#header .header_main {
+  width: 800px;
+  height: 40px;
+  margin: 0 auto;
+}
+#header .header_main h1 {
+  padding: 0;
+  margin: 0;
+  color: #666;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  float: left;
+}
+#header .header_main .header_search {
+  padding: 6px 0 0;
+  float: left;
+}
+#header .header_main .header_search .search {
+  width: 300px;
+  height: 24px;
+  border: 1px solid #ccc;
+  color: #666;
+  font-size: 14px;
+  text-indent: 5px;
+}
+#header .header_main .header_button {
+  padding: 7px;
+  float: left;
+}
+#header .header_main .header_number {
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  color: #555;
+  font-size: 14px;
+}
+#header .header_main .header_number a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
